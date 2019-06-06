@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Carousel</title>
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <script src="logic.js"></script>
+    </head>
+    <body onload="on_display();">
+        <div id="carousel">
+            <span><button onclick="left_change();" id="left_btn" class="fas fa-angle-left"></button></span>
+            <span id="imgs"><img src="#" class="img_size" id="id1" alt="No image found">
+            <img src="#" class="img_size" id="id2" alt="No image found">
+            <img src="#" class="img_size" id="id3" alt="No image found"></span>
+            <button onclick="right_change();" id="right_btn" class="fas fa-angle-right"></button>
+        </div>
+    </body>
+</html>

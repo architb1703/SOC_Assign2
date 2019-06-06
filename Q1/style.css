@@ -1,0 +1,23 @@
+.img_size{
+    width: 300px;
+    height: 300px;
+}
+button{
+    background: none;
+    border: 1px solid black;
+    outline: none;
+    width: 40px;
+    height: 40px;
+}
+button:hover{
+    border: 2px solid black;
+}
+#carousel{
+    margin-left: 22%;
+}
+body{
+    background-color: burlywood;
+}
+img{
+    margin-top:250px;
+}
